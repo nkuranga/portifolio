@@ -85,7 +85,7 @@ export const projects:ISProjects[]=[
     {
         name:'E-commerce',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/ecomerce.png',
+        image_url: 'images/project1.svg',
         github_url:'https://',
         deployed_url:'http://localhost:3000',
         category:['React Js'],
@@ -93,7 +93,7 @@ export const projects:ISProjects[]=[
     },{
         name:'Blog',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/desktop.png',
+        image_url: 'images/project2.svg',
         github_url:'http://localhost:3000',
         deployed_url:'http://localhost:3000',
         category:['Python'],
@@ -101,7 +101,7 @@ export const projects:ISProjects[]=[
     },{
         name:'Blue Monkey Tours',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/ecomerce.png',
+        image_url: 'images/project3.svg',
         github_url:'http://localhost:3000',
         deployed_url:'http://localhost:3000',
         category:['Django'],
@@ -109,7 +109,7 @@ export const projects:ISProjects[]=[
     },{
         name:'Online Application',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/ecomerce.png',
+        image_url: 'images/project2.svg',
         github_url:'https://',
         deployed_url:'http://localhost:3000',
         category:['React Js'],
@@ -117,7 +117,7 @@ export const projects:ISProjects[]=[
     },{
         name:'e-Learning',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/desktop.png',
+        image_url: 'images/project3.svg',
         github_url:'http://localhost:3000',
         deployed_url:'http://localhost:3000',
         category:['Node Js'],
@@ -125,7 +125,7 @@ export const projects:ISProjects[]=[
     },{
         name:'HillGuest',
         description: 'E-commerce platform for shopping and processes payment',
-        image_url: 'images/ecomerce.png',
+        image_url: 'images/project1.svg',
         github_url:'http://localhost:3000',
         deployed_url:'http://localhost:3000',
         category:['Django'],

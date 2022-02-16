@@ -44,26 +44,26 @@ const ProjectCard:FunctionComponent<{project:ISProjects}> =
                     layout="responsive"
                     quality="100"
                     />
-                    <div className="flex justify-center my-4 space-x-3 text-black">
-                    <a href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-sm">
-                        <AiFillGithub/>
-                        <span>Github</span>
-                    </a>
-                    <a href={deployed_url} className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-sm">
-                        <AiFillProject/>
-                        <span>Project</span>
-                    </a>
-                    </div>
+            <div className="flex justify-center my-4 space-x-3 text-black">
+                <a href={github_url} className="flex items-center px-2 py-1 space-x-2 text-sm bg-gray-200 rounded-sm lg:px-4 lg:py-2 ">
+                    <AiFillGithub/>
+                    <span>Github</span>
+                </a>
+                <a href={deployed_url} className="flex items-center px-2 py-1 space-x-2 text-sm bg-gray-200 rounded-sm lg:px-4 lg:py-2">
+                    <AiFillProject/>
+                    <span>Project</span>
+                </a>
                 </div>
+            </div>
                 
             <div className="ml-3">
                 <h3 className="mt-2 mb-4 text-xl font-medium md:text-2xl">{name}</h3>
                 <h4 className="mt-2 mb-4 font-medium">{description}</h4>
-                <div className="flex flex-wrap mt-5 space-x-3 tracking-wider font-sm">
+                <div className="flex flex-wrap mt-2 space-x-1 tracking-wider lg:mt-5 lg:space-x-3 font-sm">
                     {
                         key_technology.map(tech=>
                             <span key={tech}
-                            className="px-2 py-1 my-1 text-black bg-gray-200 rounded-t-sm"
+                            className="px-1 py-1 my-1 text-black bg-gray-200 rounded-full lg:px-2 lg:py-1"
                             >{tech}</span>
                         )
                     }

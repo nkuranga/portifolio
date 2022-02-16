@@ -9,6 +9,10 @@ class MyDocument extends Document{
                     name="description"
                     content="Full stack developer"
                     />
+                    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"/>
                     <meta
                     name="description"
                     content="IT Consultant"
@@ -16,7 +20,7 @@ class MyDocument extends Document{
                     
                 </Head>
                 
-                <body className="bg-gray-200 ">
+                <body>
                     <Main/>
                     <NextScript/>
                 </body>

@@ -4,6 +4,7 @@ import {GiTie} from 'react-icons/gi'
 import {GoLocation} from 'react-icons/go'
 import { RiComputerLine } from 'react-icons/ri'
 import Head from 'next/head'
+import Image from 'next/image'
 const Sidebar = () => {
     return (
         <div>
@@ -11,8 +12,11 @@ const Sidebar = () => {
                 <title>Web Programmer | API creator</title>
             </Head>
             <div className="flex justify-center">
-                <img src="../images/me.JPG" alt="me" width="128px" height="128px" 
-                className="w-32 h-32 rounded-full mx-30 lg:mx-10 max-auto" />
+                <Image src="/images/me.JPG" alt="developer" 
+                    width="128px" 
+                    height="128px"
+                    quality="100" 
+                    className="w-32 h-32 rounded-full mx-30 lg:mx-10 max-auto" />
             </div>
             
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan"> 
@@ -40,7 +44,7 @@ const Sidebar = () => {
                 </a>
 
             </div>
-            <div className="py-5 my-5" style={{marginLeft:"-0.5rem",marginRight:"-0.5rem"}}>
+            <div className="py-5 my-5 font-pacifico" style={{marginLeft:"-0.5rem",marginRight:"-0.5rem"}}>
 
                 <div className='flex items-center justify-center space-x-1'>
                     <GoLocation/><span>Kigali, Rwanda</span>
@@ -48,9 +52,10 @@ const Sidebar = () => {
                 <p className="my-2">nkurangajohncastor@gmail.com</p>
                 <p className="my-2">+250 78 026 3922</p>
             </div>
-            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-500 to-blue-500"
-            onClick={()=> window.open('mailto:nkurangajohncastor@gmail.com')}>Email me</button>
-            {/* <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green-500 to-blue-500">Toggle Them</button> */}
+            <button className="w-8/12 px-5 py-2 hover:bg-blue- my-2 text-white rounded-full  bg-gradient-to-r from-green-500 to-blue-500 hover:from-blue-500 hover:to-blue-500"
+                   onClick={()=> window.open('mailto:nkurangajohncastor@gmail.com')}>
+                       Email me
+            </button>
         </div>
     )
 }
