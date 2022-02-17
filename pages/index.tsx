@@ -7,7 +7,7 @@ const index=()=> {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <Head>
-        <title>Web Programmer | API creator</title>
+        <title>Web Developer and API Creator</title>
       </Head>
       <h5 className='my-3 font-medium'>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
