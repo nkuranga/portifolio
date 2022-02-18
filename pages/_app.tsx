@@ -9,10 +9,12 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Web Developer | API creator</title>
       </Head>
-    <div className='col-span-12 p-4 text-center bg-white lg:col-span-3 rounded-2xl'>
+    <div className='col-span-12 p-4 text-center bg-white lg:col-span-3 rounded-2xl' 
+      style={{boxShadow:"0px 1px 4px rgba(0,0,0,0.4)"}}>
     <Sidebar/>
     </div>
-    <div className='col-span-12 overflow-hidden bg-white lg:col-span-9 rounded-2xl'>
+    <div className='col-span-12 overflow-hidden bg-white lg:col-span-9 rounded-2xl'
+      style={{boxShadow:"0px 1px 4px rgba(0,0,0,0.4)"}}>
     <Navbar/>
     <Component {...pageProps} />
     </div>
