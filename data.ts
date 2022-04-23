@@ -18,13 +18,13 @@ export const services:IServices[]=[
         id: 2,
         title: 'Backend Development',
         Icon: FaServer,
-        about: 'Handle Database, Server, API using <b>Express</b> and other Framework'
+        about: 'Handle SQL Database (MySql, PostgreSQL) and document database (MongoDB)'
     },
     {
         id: 3,
         title: 'API Development',
         Icon: AiOutlineApi,
-        about: 'I can Develp Rubust API using <b> Django-rest-api </b> and <b>Node Js</b>'
+        about: 'I can Develp Rubust API using <b> Restful-api w with </b> and <b>Node Js (Express Framework)</b>'
     },
     {
         id: 4,
