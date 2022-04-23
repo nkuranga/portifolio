@@ -10,10 +10,12 @@ const index=()=> {
         <title>Web Developer and API Creator</title>
       </Head>
       <h5 className='my-3 font-medium'>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Quasi corrupti repellat dolores! Tenetur sequi, voluptates, 
-        mollitia illo esse maiores incidunt fuga rerum ipsa ea numquam
-         dicta perferendis libero cupiditate animi.
+        Experienced and Passionate about the development of web applications and
+        solutions. Currently working in NodeJS and ReactJS. I am a person with
+        an analytical and creative mind to develop ideas and products and also
+        keep myself updated in this field. Being able to work under pressure
+        while maintaining high levels of quality is always something that
+        fascinates me.
       </h5>
       <div className='flex-grow p-4 my-5 bg-gray-300 rounded-lg'
        style={{marginLeft:"-1rem",marginRight:"-1rem"}}>
